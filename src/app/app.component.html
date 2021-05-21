@@ -1,0 +1,64 @@
+<h4 class="text-center pt-4">Playing Local Videos </h4>
+<div class="NewsList" id="NewsList">
+
+  <div class="news_card" id="news_card">
+    <video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" poster="../assets/poster.jpg">
+      <source src="../assets/video3.mp4" type="video/mp4" />
+      <source src='../assets/video3.webm' type="video/webm" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+  </div>
+
+  <div class="news_card" id="news_card">
+    <video id="my-video1" class="video-js vjs-default-skin vjs-big-play-centered">
+      <source src="../assets/video2.mp4" type="video/mp4" />
+      <source src='../assets/video2.webm' type="video/webm" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+  </div>
+
+  <div class="news_card" id="news_card">
+    <video id="my-video2" class="video-js vjs-default-skin vjs-big-play-centered">
+      <source src="../assets/video4.mp4" type="video/mp4" />
+      <source src="../assets/video4.webm" type="video/webm" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+  </div>
+</div>
+
+
+<!---playing Yotube videos using angular youtube package-->
+<h4 class="text-center pt-4">Playing Youtube Videos</h4>
+
+<div class="NewsList" id="NewsList">
+  <div class="news_card" id="news_card">
+    <youtube-player videoId="qu_jRXNvy6A" suggestedQuality="highres" [height]="350" [width]="500" [startSeconds]="4"
+      [endSeconds]="8" poster="../assets/poster.jpg">
+    </youtube-player>
+  </div>
+
+  <div class="news_card" id="news_card">
+    <youtube-player videoId="mUYLoazty4Q" suggestedQuality="highres" [height]="350" [width]="500" [startSeconds]="4"
+      [endSeconds]="8">
+    </youtube-player>
+  </div>
+
+  <div class="news_card" id="news_card">
+    <youtube-player videoId="i-U3uIRkmeU" suggestedQuality="highres" [height]="350" [width]="500" [startSeconds]="4"
+      [endSeconds]="8">
+    </youtube-player>
+  </div>
+
+</div>
